@@ -1,0 +1,44 @@
+{
+    {
+      "name": "search engines",
+      "options":[
+        {"op":"google","url":"https://www.google.com","logo":"https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_640.png"},
+        {"op":"google","url":"https://www.google.com","logo":"https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_640.png"},
+        {"op":"google","url":"https://www.google.com","logo":"https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_640.png"},
+        {"op":"bing","url":"https://www.bing.com","logo":"https://cdn.pixabay.com/photo/2015/07/13/07/30/icons-842847_640.png"},
+        {"op":"bing","url":"https://www.bing.com","logo":"https://cdn.pixabay.com/photo/2015/07/13/07/30/icons-842847_640.png"},
+        {"op":"bing","url":"https://www.bing.com","logo":"https://cdn.pixabay.com/photo/2015/07/13/07/30/icons-842847_640.png"},
+        {"op":"bing","url":"https://www.bing.com","logo":"https://cdn.pixabay.com/photo/2015/07/13/07/30/icons-842847_640.png"},
+      ],
+      "url":["https://www.google.com","https://www.bing.com"]
+    },
+    {
+      "name": "shop",
+      "options":[
+        {"op":"amazon","url":"https://www.amazon.com"},
+        {"op":"amazon","url":"https://www.amazon.com"},
+        {"op":"amazon","url":"https://www.amazon.com"},
+        {"op":"amazon","url":"https://www.amazon.com"},
+        {"op":"flipkart","url":"https://flipkart.com"},
+        {"op":"flipkart","url":"https://flipkart.com"},
+        {"op":"flipkart","url":"https://flipkart.com"},
+        {"op":"flipkart","url":"https://flipkart.com"},
+        {"op":"flipkart","url":"https://flipkart.com"},
+      ],
+      "url":["https://www.amazon.com","https://www.flipkart.com"]
+    },
+    {
+      "name": "study",
+      "option":[
+        {"op":"leetcode","url":"https://www.leetcode.com.com","logo":"https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_640.png"},
+        {"op":"leetcode","url":"https://www.leetcode.com.com"},
+        {"op":"leetcode","url":"https://www.leetcode.com.com"},
+        {"op":"hakerrank","url":"https://www.hakerrank.com"},
+        {"op":"hakerrank","url":"https://www.hakerrank.com"},
+        {"op":"hakerrank","url":"https://www.hakerrank.com"},
+        {"op":"hakerrank","url":"https://www.hakerrank.com"},
+        {"op":"hakerrank","url":"https://www.hakerrank.com"},
+      ],
+      "url":["https://www.leetcode.com","https://www.neetcode.com"]
+    }
+}
