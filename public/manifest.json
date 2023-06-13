@@ -1,14 +1,19 @@
 {
-  "name":"myapps",
-  "description":"open new sites",
-  "version":"1:0",
   "manifest_version":3,
+  "name":"Site Manager",
+  "description":"manage my sites",
+  "version":"1.0.0",
   "action":{
     "default_title":"myapps",
     "default_popup":"index.html",
-    "default_icon":{
-      "16":"logo192.png",
-      "120":"logo512.png"
-    }
-  }
+    "default_icon":"mouse.png"
+  },
+  "permissions":[
+    "scripting"
+  ],
+  "host_permissions":[
+    "https://*/",
+    "http://*/"
+  ]
+
 }
