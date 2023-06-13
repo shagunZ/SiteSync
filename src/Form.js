@@ -2,9 +2,10 @@ import React, { useState, useRef } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
+
 function FormExample({ onSubmit }) {
   const [validated, setValidated] = useState(false);
-  const nameRef = useRef(null);
+  const opRef = useRef(null);
   const urlRef = useRef(null);
   const logoRef = useRef(null);
 
@@ -15,11 +16,11 @@ function FormExample({ onSubmit }) {
     const form = event.currentTarget;
     if (form.checkValidity()) {
       const formData = {
-        name: nameRef.current.value,
+        op: opRef.current.value,
         url: urlRef.current.value,
         logo: logoRef.current.value,
       };
-      onSubmit(formData);
+      onSubmit(formData,form, setValidated);
       form.reset();
       setValidated(false);
     }
@@ -32,7 +33,7 @@ function FormExample({ onSubmit }) {
       <Form.Group controlId="validationCustom01">
         <Form.Label>Enter Name</Form.Label>
         <Form.Control
-          ref={nameRef}
+          ref={opRef}
           required
           type="text"
           placeholder="MyItem"
