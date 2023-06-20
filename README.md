@@ -2,7 +2,7 @@
 -SiteSync is a Chrome extension, versatile site management tool built with React. \
 -It features three main components: Code, Search, and Shop. \
 -With a collection of popular sites stored locally, you can easily access your favorite destinations with just a click.  \
--Simplify your browsing experience and effortlessly sync and manage your preferred sites with our powerful Chrome extension. \
+-Simplify your browsing experience and effortlessly sync and manage your preferred sites with our powerful Chrome extension. 
 
 # Preview
 
