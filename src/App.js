@@ -239,7 +239,7 @@ useEffect(() => {
       <div className="applist">
         {data.map((item, index) => (
           <div className="main" key={item.name}>
-            <Button key={index} onClick={() => handleCategoryClick(index)}  variant={selectedCategory === index ? 'primary' : 'secondary'}>
+            <Button key={index} onClick={() => handleCategoryClick(index)}  variant={selectedCategory === index ? 'info' : 'dark'}>
               {item.name}
             </Button>
             </div>
@@ -261,18 +261,20 @@ useEffect(() => {
                 
                 ))}
 
-                {/* add a new card  */}
-                 <Card style={{ width: '18rem' }} onClick={handleAdd}>
+
+
+                {/* add a new card  --->>>>extension to the app */}
+                 {/* <Card style={{ width: '18rem' }} onClick={handleAdd}>
                   <Card.Body>
                   <Card.Img variant="top" class="addmore"src="https://cdn.pixabay.com/photo/2017/03/19/03/51/material-icon-2155448_640.png" />
                   </Card.Body>
-                </Card>
-
+                </Card> */}
+{/* 
 {add && (
         <div className="formadd"ref={formRef}>
           <FormExample onSubmit={handleFormSubmit}/>
           </div>
-          )}    
+          )}     */}
 
               </div>
               
